@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <script src='http://d3js.org/d3.v3.min.js'></script>
+        <script src='http://dimplejs.org/dist/dimple.v2.0.0.min.js'></script>
+        <script type='text/javascript'>
+
+            window.onload = function () {
+                'use strict';
+                main();
+            };
+			
+			
+			<!-- company		kpi1	kpi2	kpi3	kpi4	kpi5	kpi6 -->
+			<!-- shirt.com		68.7	56.4	52.7	41.9	41.1	31.2 -->
+			<!-- consult.com	69.7	64.2	64.1	55.4	33.3	19.0 -->
+
+            function main() {
+                'use strict';
+                
+				var width, height, data;
+				
+				data = [
+					{Company: "shirt.com", 		KPI: "SEO",	    			Percentage: 68.7},
+					{Company: "consult.com", 	KPI: "SEO", 				Percentage: 69.7},
+					{Company: "shirt.com", 		KPI: "Email List",			Percentage: 56.4},
+					{Company: "consult.com", 	KPI: "Email List", 			Percentage: 64.2},
+					{Company: "shirt.com", 		KPI: "PPC", 				Percentage: 52.7},
+					{Company: "consult.com", 	KPI: "PPC", 				Percentage: 64.1},
+					{Company: "shirt.com", 		KPI: "PR", 					Percentage: 41.9},
+					{Company: "consult.com", 	KPI: "PR", 					Percentage: 55.4},
+					{Company: "shirt.com", 		KPI: "Direct Mail", 		Percentage: 41.1},
+					{Company: "consult.com", 	KPI: "Direct Mail", 		Percentage: 33.3},
+					{Company: "shirt.com", 		KPI: "Online Media Buys", 	Percentage: 31.2},
+					{Company: "consult.com", 	KPI: "Online Media Buys", 	Percentage: 19.0}
+                ];
+				
+                width = 900;
+                height = 450;
+                
+				var svg, chart;
+                svg = createSvg(width, height);
+                chart = createPopulationChart(svg, data);
+                chart.draw();
+            }
+			
+            function createSvg(width, height) {
+                'use strict';
+				
+                var svg = d3.select('body').append('svg');
+				
+                svg.attr('width', width)
+                   .attr('height', height)
+                   .append('g')
+                   .attr('class','chart');
+				   
+                return svg;
+            }
+			
+            function createPopulationChart(svg, data) {
+                'use strict';
+				
+                var chart;		
+                chart = new dimple.chart(svg, data);
+				
+                chart.addCategoryAxis('x', ["KPI", "Company"]);
+                chart.addMeasureAxis('y', 'Percentage');
+				
+                chart.addSeries("Company", dimple.plot.bar);
+
+				chart.addLegend(750, 50, 60, 300, "Right");
+				
+                return chart;
+            }
+
+
+
+        </script>
+    </head>
+    <body></body>
+</html>
