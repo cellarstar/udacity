@@ -1,0 +1,126 @@
+-------------------------------------------------------------------------------------
+JSON DATA:
+-------------------------------------------------------------------------------------
+{u'_id': ObjectId('57024f09ba19ea1e1483bce1'),
+ u'addinfo': {u'building': {u'architect': u'Uihlein-Wilson Architects',
+                            u'building_type': u'commercial',
+                            u'levels': u'3'},
+              u'type': u'leisure',
+              u'type_details': u'sports_centre'},
+ u'address': {u'city': u'Milwaukee',
+              u'housenumber': u'1305',
+              u'postcode': u'53202',
+              u'state': u'WI',
+              u'street': u'North Broadway Street'},
+ u'creation': {u'changeset': u'37053418',
+               u'timestamp': u'2016-02-07T03:40:23Z',
+               u'uid': u'1952296',
+               u'user': u'shuui',
+               u'version': u'9'},
+ u'id': u'182486307',
+ u'name': u'Pamela and Hermann Viets Field',
+ u'nds': [{u'ref': u'1928475876'},
+          {u'ref': u'1928475877'},
+          {u'ref': u'3993018005'},
+          {u'ref': u'3993018008'},
+          {u'ref': u'1928475882'},
+          {u'ref': u'3993019274'},
+          {u'ref': u'3993019295'},
+          {u'ref': u'3993019294'},
+          {u'ref': u'3993019293'},
+          {u'ref': u'3993019292'},
+          {u'ref': u'3993019280'},
+          {u'ref': u'3993019281'},
+          {u'ref': u'3993019282'},
+          {u'ref': u'3993019283'},
+          {u'ref': u'3993019284'},
+          {u'ref': u'3993019285'},
+          {u'ref': u'3993019286'},
+          {u'ref': u'3993019291'},
+          {u'ref': u'3993019290'},
+          {u'ref': u'3993019289'},
+          {u'ref': u'3993019288'},
+          {u'ref': u'3993019287'},
+          {u'ref': u'3993018006'},
+          {u'ref': u'3993018007'},
+          {u'ref': u'3993019258'},
+          {u'ref': u'3993019255'},
+          {u'ref': u'3993019256'},
+          {u'ref': u'3993019247'},
+          {u'ref': u'3993019246'},
+          {u'ref': u'3993019244'},
+          {u'ref': u'3993019234'},
+          {u'ref': u'3993019235'},
+          {u'ref': u'3993019218'},
+          {u'ref': u'3993019219'},
+          {u'ref': u'3993019220'},
+          {u'ref': u'1928475876'}],
+ u'operator': u'Milwaukee School of Engineering',
+ u'other': {u'capacity': u'780',
+            u'note': u'Private soccer field on roof level. 3-story parking garage underneath.',
+            u'parking': u'multi-storey',
+            u'start_date': u'2013',
+            u'supervised': u'yes'},
+ u'source': u'http://www.msoe.edu/about-msoe/2014/01/24/viets-field-named-a-top-project-of-2013/',
+ u'type': u'way'}
+ 
+-------------------------------------------------------------------------------------
+ XML Data:
+-------------------------------------------------------------------------------------
+   <way id="182486307" version="9" timestamp="2016-02-07T03:40:23Z" changeset="37053418" uid="1952296" user="shuui">
+    <nd ref="1928475876"/>
+    <nd ref="1928475877"/>
+    <nd ref="3993018005"/>
+    <nd ref="3993018008"/>
+    <nd ref="1928475882"/>
+    <nd ref="3993019274"/>
+    <nd ref="3993019295"/>
+    <nd ref="3993019294"/>
+    <nd ref="3993019293"/>
+    <nd ref="3993019292"/>
+    <nd ref="3993019280"/>
+    <nd ref="3993019281"/>
+    <nd ref="3993019282"/>
+    <nd ref="3993019283"/>
+    <nd ref="3993019284"/>
+    <nd ref="3993019285"/>
+    <nd ref="3993019286"/>
+    <nd ref="3993019291"/>
+    <nd ref="3993019290"/>
+    <nd ref="3993019289"/>
+    <nd ref="3993019288"/>
+    <nd ref="3993019287"/>
+    <nd ref="3993018006"/>
+    <nd ref="3993018007"/>
+    <nd ref="3993019258"/>
+    <nd ref="3993019255"/>
+    <nd ref="3993019256"/>
+    <nd ref="3993019247"/>
+    <nd ref="3993019246"/>
+    <nd ref="3993019244"/>
+    <nd ref="3993019234"/>
+    <nd ref="3993019235"/>
+    <nd ref="3993019218"/>
+    <nd ref="3993019219"/>
+    <nd ref="3993019220"/>
+    <nd ref="1928475876"/>
+    <tag k="addr:city" v="Milwaukee"/>
+    <tag k="addr:housenumber" v="1305"/>
+    <tag k="addr:postcode" v="53202"/>
+    <tag k="addr:state" v="WI"/>
+    <tag k="addr:street" v="North Broadway Street"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="building" v="commercial"/>
+    <tag k="building:architect" v="Uihlein-Wilson Architects"/>
+    <tag k="building:levels" v="3"/>
+    <tag k="capacity" v="780"/>
+    <tag k="leisure" v="sports_centre"/>
+    <tag k="name" v="Pamela and Hermann Viets Field"/>
+    <tag k="note" v="Private soccer field on roof level. 3-story parking garage underneath."/>
+    <tag k="operator" v="Milwaukee School of Engineering"/>
+    <tag k="parking" v="multi-storey"/>
+    <tag k="source" v="http://www.msoe.edu/about-msoe/2014/01/24/viets-field-named-a-top-project-of-2013/"/>
+    <tag k="start_date" v="2013"/>
+    <tag k="supervised" v="yes"/>
+  </way>
+-------------------------------------------------------------------------------------

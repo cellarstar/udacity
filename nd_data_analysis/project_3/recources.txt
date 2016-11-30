@@ -1,0 +1,15 @@
+WEBSITES/BLOGS:
+-----------------------------------
+http://wiki.openstreetmap.org
+http://stackoverflow.com
+https://docs.mongodb.org/getting-started/python/
+https://api.mongodb.org/python/current/
+http://www.ciclt.net
+
+GIT REPOSITORIES:
+-----------------------------------
+https://github.com/batmanbury/Udacity
+
+BOOKS:
+-----------------------------------
+MongoDB and Python - Patterns and processes for the popular document-oriented database, Nieall O'Higgins, O'Reilly Media, September 2011

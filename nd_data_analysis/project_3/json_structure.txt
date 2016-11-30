@@ -1,0 +1,161 @@
+######################################################################################################
+# EXAMPLE FOR A NODE OBJECT
+######################################################################################################
+{
+"id": "2344703590",
+"type: "node",
+"source": "local knowledge",
+"creation": {
+            "uid":"1219059",
+            "user":"linuxUser16",
+            "changeset":"17206049",
+            "version":"2",
+            "timestamp":"2013-08-03T16:43:42Z"
+            },
+"geopos":   {
+            "lon":"41.9757030",
+            "lat":"-87.6921867"
+		    },
+"address":  {
+            "housenumber": "5157",
+            "postcode": "60625",
+            "street": "North Lincoln Ave",
+	    "city": "Waukesha",
+            "state": "Wisconsins"
+            },
+"addinfo":  {
+			"type": "restaurant, cafe, bar",
+			"cuisine": "mexican",
+		    }, OR
+		    {
+			"type": "place_of_worship",
+			"denomination": "mormon",
+			"religion": "christian"
+		    }, OR
+		    {
+		    "type" : "shop"
+		    "shop_type": "fuel" -> <tag k="amenity" v="fuel"/>
+		   },
+"others":  {
+		   "key" : "value",
+		    .....
+		   "key" : "value"
+           },
+"name": "La Cabana De Don Luis",
+"opening_hours": "Mo-Tu 07:00-00:00; Fr 07:00-01:00; Sa 08:00-01:00; Su 08:00-00:00"	
+"operator": "La Cabana De Don Luis",
+"phone": "1 (773)-271-5176",
+"website": "http://www.lacabana.com"
+}
+
+######################################################################################################
+# EXAMPLE FOR A WAY OBJECT
+######################################################################################################
+
+{
+"id": "2344703590",
+"type: "way",
+"source": "local knowledge",
+"creation": {
+            "uid":"1219059",
+            "user":"linuxUser16",
+            "changeset":"17206049",
+            "version":"2",
+            "timestamp":"2013-08-03T16:43:42Z"
+            },
+"geopos":   {
+            "lon":"41.9757030",
+            "lat":"-87.6921867"
+		    },
+"address":  {
+            "housenumber": "5157",
+            "postcode": "60625",
+            "street": "North Lincoln Ave",
+	        "city": "Waukesha",
+            "state": "Wisconsins"
+            },
+"addinfo":  {
+			"type": "highway", # or "railway", "power", "building", "park", "water", "parking", "area" 
+			"type_details": "footway" # or "rail", "line"
+			}
+			"building":  {
+						"building:": "...",
+						"architect": "Johnson",
+						"name:historic": "name"
+						},
+			"area":  {
+						"area:": "...",
+						...
+						"area:": "..."
+						},
+"contact":  {
+		   "contact:..." : "value", # remove contact:
+		    .....
+		   "contact:..." : "value"
+           },
+			,
+"others":  {
+		   "key" : "value",
+		    .....
+		   "key" : "value"
+           },
+"name": "La Cabana De Don Luis",
+"opening_hours": "Mo-Tu 07:00-00:00; Fr 07:00-01:00; Sa 08:00-01:00; Su 08:00-00:00",	
+"operator": "La Cabana De Don Luis",
+"phone": "1 (773)-271-5176",
+"website": "http://www.lacabana.com"
+
+######################################################################################################
+# EXAMPLE FOR A RELATION OBJECT
+######################################################################################################
+
+{
+"id": "2344703590",
+"type: "relation",
+"relation_type": "boundary"
+"source": "local knowledge",
+"creation": {
+            "uid":"1219059",
+            "user":"linuxUser16",
+            "changeset":"17206049",
+            "version":"2",
+            "timestamp":"2013-08-03T16:43:42Z"
+            },
+"address":  {
+            "housenumber": "5157",
+            "postcode": "60625",
+            "street": "North Lincoln Ave",
+	        "city": "Waukesha",
+            "state": "Wisconsins"
+            },
+"addinfo":  {
+			"type": "highway", # or "railway", "power", "building", "park", "water", "parking", "area" 
+			"type_details": "footway" # or "rail", "line"
+
+			}
+			"building":  {
+						"building:": "...",
+						"architect": "Johnson",
+						"name:historic": "name"
+						},
+			"area":  {
+						"area:": "...",
+						...
+						"area:": "..."
+						},
+"contact":  {
+		   "contact:..." : "value", # remove contact:
+		    .....
+		   "contact:..." : "value"
+           },
+			,
+"others":  {
+		   "key" : "value",
+		    .....
+		   "key" : "value"
+           },
+"name": "La Cabana De Don Luis",
+"opening_hours": "Mo-Tu 07:00-00:00; Fr 07:00-01:00; Sa 08:00-01:00; Su 08:00-00:00",	
+"operator": "La Cabana De Don Luis",
+"phone": "1 (773)-271-5176",
+"website": "http://www.lacabana.com"
