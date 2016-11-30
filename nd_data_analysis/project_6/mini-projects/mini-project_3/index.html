@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <script src='http://d3js.org/d3.v3.min.js'></script>
+        <script src='http://dimplejs.org/dist/dimple.v2.0.0.min.js'></script>
+        <script type='text/javascript'>
+
+		window.onload = function () {
+                'use strict';
+                main();
+        };
+				
+		function main() {
+                'use strict';		
+				var data = [
+					{id: 1,		Company: "RMI", 		Percentage: 39.0	},
+					{id: 2,		Company: "Apple", 		Percentage: 19.5	},
+					{id: 3,		Company: "Palm", 		Percentage: 9.8		},
+					{id: 4,		Company: "Motorola", 	Percentage: 7.4		},
+					{id: 5,		Company: "Nokia", 		Percentage: 3.1		},
+					{id: 6,		Company: "Other",		Percentage: 21.2	}
+                ]; 
+
+				var width = 300;
+				var height = 100;
+				
+				var svg = d3.select('body').append('svg');
+				
+                svg.attr('width', width)
+                   .attr('height', height)
+                   .append('g')
+                   .attr('class','chart');
+				
+				var myChart = new dimple.chart(svg, data);
+				myChart.addMeasureAxis("p", "Percentage");
+				myChart.addSeries("Company", dimple.plot.pie);
+				myChart.draw();
+		}
+		
+        </script>
+    </head>
+    <body></body>
+</html>
