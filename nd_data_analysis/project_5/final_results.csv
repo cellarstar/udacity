@@ -1,0 +1,3 @@
+,class_id,clf,features_scaled,number of features,features,accuracy,precision,recall,best parameters,best estimator,orig data set,create_new_message_features,create_new_finance_features,PCA,performance
+0,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,5,"['poi', 'from_poi_to_this_person', 'bonus', 'expenses', 'total_payments']",0.877230769,0.63557047,0.4735,"{u'n_estimators': 3, u'learning_rate': 1.5, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1.5,
+          n_estimators=3, random_state=None)",FALSE,FALSE,FALSE,FALSE,1.10907047

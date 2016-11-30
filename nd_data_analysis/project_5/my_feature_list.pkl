@@ -1,0 +1,12 @@
+(lp0
+S'poi'
+p1
+aS'from_poi_to_this_person'
+p2
+aS'bonus'
+p3
+aS'expenses'
+p4
+aS'total_payments'
+p5
+a.

@@ -1,0 +1,7 @@
+clf,features_scaled,features,accuracy,precision,recall,meet_spec,combined_recall_precision
+<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,"['poi', 'from_this_person_to_poi', 'to_messages', 'bonus', 'director_fees', 'total_payments']",0.814142857,0.336590662,0.31,TRUE,0.646590662
+<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,"['poi', 'from_this_person_to_poi', 'to_messages', 'bonus', 'director_fees', 'total_payments']",0.782714286,0.240279163,0.241,FALSE,0.481279163
+<class 'sklearn.naive_bayes.GaussianNB'>,scaled,"['poi', 'from_this_person_to_poi', 'to_messages', 'bonus', 'director_fees', 'total_payments']",0.6715,0.215956284,0.494,FALSE,0.709956284
+<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,"['poi', 'from_this_person_to_poi', 'to_messages', 'bonus', 'director_fees', 'total_payments']",0.379785714,0.157106208,0.7655,FALSE,0.922606208
+<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,"['poi', 'from_this_person_to_poi', 'to_messages', 'bonus', 'director_fees', 'total_payments']",0.809714286,0.268802228,0.193,FALSE,0.461802228
+<class 'sklearn.linear_model.logistic.LogisticRegression'>,scaled,"['poi', 'from_this_person_to_poi', 'to_messages', 'bonus', 'director_fees', 'total_payments']",0.709357143,0.129874776,0.1815,FALSE,0.311374776

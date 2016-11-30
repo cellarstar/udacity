@@ -1,0 +1,1098 @@
+nr,class_id,clf,features_scaled,number of features,features,accuracy,precision,recall,best parameters,best estimator,orig data set,create_new_message_features,create_new_finance_features,PCA,meet_specs,combined_recall_precision
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'bonus', 'director_fees']",0.3558,0.236910685,1,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.236910685
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'bonus', 'director_fees']",0.3558,0.236910685,1,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.236910685
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'director_fees', 'expenses']",0.342,0.216497077,1,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.216497077
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'director_fees', 'expenses']",0.342,0.216497077,1,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.216497077
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,4,"['poi', 'bonus', 'salary', 'director_fees']",0.324090909,0.211119379,0.993,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.204119379
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,4,"['poi', 'bonus', 'salary', 'director_fees']",0.324090909,0.211119379,0.993,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.204119379
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'salary', 'director_fees']",0.324,0.211096939,0.993,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.204096939
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,4,"['poi', 'bonus', 'director_fees', 'expenses']",0.305333333,0.193498452,1,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.193498452
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,5,"['poi', 'from_poi_to_this_person', 'to_messages', 'bonus', 'director_fees']",0.297833333,0.191473017,0.997,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.188473017
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,5,"['poi', 'bonus', 'salary', 'director_fees', 'expenses']",0.298583333,0.191341991,0.9945,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.185841991
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,5,"['poi', 'bonus', 'salary', 'director_fees', 'expenses']",0.298583333,0.191341991,0.9945,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.185841991
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,5,"['poi', 'from_poi_to_this_person', 'bonus', 'director_fees', 'expenses']",0.283769231,0.176819026,1,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.176819026
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,5,"['poi', 'shared_receipt_with_poi', 'bonus', 'director_fees', 'expenses']",0.278615385,0.175777817,1,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.175777817
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,5,"['poi', 'to_messages', 'bonus', 'director_fees', 'expenses']",0.281615385,0.176096743,0.9975,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.173596743
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,6,"['poi', 'from_poi_to_this_person', 'to_messages', 'bonus', 'director_fees', 'expenses']",0.281615385,0.176096743,0.9975,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.173596743
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,5,"['poi', 'from_this_person_to_poi', 'bonus', 'director_fees', 'expenses']",0.281230769,0.171379989,0.9575,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.128879989
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,4,"['poi', 'director_fees', 'expenses', 'total_payments']",0.351,0.183747666,0.935,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.118747666
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'director_fees', 'total_payments']",0.276538462,0.169094647,0.946,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.115094647
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'director_fees', 'total_payments']",0.276538462,0.169094647,0.946,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.115094647
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,8,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'bonus', 'director_fees', 'expenses']",0.273923077,0.168464212,0.945,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,1.113464212
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'bonus', 'director_fees']",0.4346,0.237726098,0.828,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,1.065726098
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'bonus', 'expenses']",0.837909091,0.564544914,0.4745,"{u'n_estimators': 3, u'learning_rate': 1, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1,
+          n_estimators=3, random_state=None)",TRUE,FALSE,FALSE,FALSE,TRUE,1.039044914
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,4,"['poi', 'bonus', 'director_fees', 'expenses']",0.846083333,0.543195935,0.481,"{u'n_estimators': 3, u'learning_rate': 1, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1,
+          n_estimators=3, random_state=None)",TRUE,FALSE,FALSE,FALSE,TRUE,1.024195935
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,5,"['poi', 'bonus', 'director_fees', 'expenses', 'total_payments']",0.860615385,0.555819477,0.468,"{u'n_estimators': 3, u'learning_rate': 1, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1,
+          n_estimators=3, random_state=None)",TRUE,FALSE,FALSE,FALSE,TRUE,1.023819477
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'director_fees', 'total_payments']",0.463,0.196391564,0.8055,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,1.001891564
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,8,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'director_fees', 'expenses', 'total_payments']",0.809214286,0.3908233,0.6005,"{u'n_estimators': 3, u'learning_rate': 1, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1,
+          n_estimators=3, random_state=None)",TRUE,FALSE,FALSE,FALSE,TRUE,0.9913233
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,8,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.861285714,0.51577802,0.474,"{u'n_estimators': 3, u'learning_rate': 1, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1,
+          n_estimators=3, random_state=None)",TRUE,FALSE,FALSE,FALSE,TRUE,0.98977802
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,5,"['poi', 'from_this_person_to_poi', 'bonus', 'director_fees', 'expenses']",0.556384615,0.223867468,0.7635,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.987367468
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'bonus', 'director_fees']",0.8247,0.593067069,0.3935,"{u'n_neighbors': 3, u'weights': u'uniform', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=3, p=3,
+           weights='uniform')",TRUE,FALSE,FALSE,FALSE,TRUE,0.986567069
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'bonus', 'director_fees']",0.8247,0.593067069,0.3935,"{u'n_neighbors': 3, u'weights': u'uniform', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=3, p=3,
+           weights='uniform')",TRUE,FALSE,FALSE,FALSE,TRUE,0.986567069
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,6,"['poi', 'from_poi_to_this_person', 'to_messages', 'bonus', 'director_fees', 'expenses']",0.866538462,0.610324729,0.3665,"{u'n_neighbors': 3, u'weights': u'uniform', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=3, p=3,
+           weights='uniform')",TRUE,FALSE,FALSE,FALSE,TRUE,0.976824729
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,2,"['poi', 'from_poi_to_this_person']",0.46625,0.274174294,0.689,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.963174294
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,5,"['poi', 'from_poi_to_this_person', 'bonus', 'director_fees', 'expenses']",0.863615385,0.592201462,0.3645,"{u'n_neighbors': 3, u'weights': u'uniform', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=3, p=3,
+           weights='uniform')",TRUE,FALSE,FALSE,FALSE,TRUE,0.956701462
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'bonus', 'director_fees']",0.7937,0.483787957,0.47,"{u'n_estimators': 3, u'learning_rate': 1, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1,
+          n_estimators=3, random_state=None)",TRUE,FALSE,FALSE,FALSE,TRUE,0.953787957
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,8,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'director_fees', 'expenses', 'total_payments']",0.553714286,0.206467662,0.747,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.953467662
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,6,"['poi', 'from_poi_to_this_person', 'to_messages', 'bonus', 'director_fees', 'expenses']",0.589,0.231485944,0.7205,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.951985944
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,4,"['poi', 'bonus', 'salary', 'director_fees']",0.43,0.205598456,0.7455,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.951098456
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,2,"['poi', 'expenses']",0.465,0.229489664,0.7105,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.939989664
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,5,"['poi', 'to_messages', 'bonus', 'director_fees', 'expenses']",0.854538462,0.536949153,0.396,"{u'n_estimators': 30, u'learning_rate': 1, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=1,
+          n_estimators=30, random_state=None)",TRUE,FALSE,FALSE,FALSE,TRUE,0.932949153
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,2,"['poi', 'total_payments']",0.445384615,0.182549354,0.749,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.931549354
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,8,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'bonus', 'director_fees', 'expenses']",0.581230769,0.224568138,0.702,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.926568138
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'expenses', 'total_payments']",0.608,0.232179931,0.671,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.903179931
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'expenses', 'total_payments']",0.608,0.232179931,0.671,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.903179931
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,5,"['poi', 'bonus', 'salary', 'director_fees', 'expenses']",0.842333333,0.542056075,0.348,"{u'n_estimators': 10, u'learning_rate': 1, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=1,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,TRUE,0.890056075
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,2,"['poi', 'salary']",0.4578,0.216440172,0.653,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.869440172
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'bonus', 'salary']",0.8084,0.534201954,0.328,"{u'n_neighbors': 3, u'weights': u'uniform', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=3, p=3,
+           weights='uniform')",TRUE,FALSE,FALSE,FALSE,TRUE,0.862201954
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'salary', 'total_payments']",0.485307692,0.183083367,0.6775,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.860583367
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,5,"['poi', 'to_messages', 'bonus', 'director_fees', 'expenses']",0.828076923,0.438384898,0.418,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.856384898
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,5,"['poi', 'bonus', 'director_fees', 'expenses', 'total_payments']",0.562769231,0.20556266,0.643,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.84856266
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'bonus', 'expenses']",0.782909091,0.40917603,0.437,{u'min_samples_split': 3},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=3, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.84617603
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'salary', 'expenses']",0.533909091,0.221846647,0.6235,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.845346647
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,4,"['poi', 'bonus', 'director_fees', 'expenses']",0.793666667,0.39533861,0.4495,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.84483861
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,5,"['poi', 'shared_receipt_with_poi', 'bonus', 'director_fees', 'expenses']",0.766923077,0.332247557,0.51,"{u'n_estimators': 30, u'learning_rate': 2, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
+          n_estimators=30, random_state=None)",TRUE,FALSE,FALSE,FALSE,TRUE,0.842247557
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,2,"['poi', 'bonus']",0.478888889,0.236687549,0.6045,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.841187549
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,2,"['poi', 'to_messages']",0.492444444,0.140901771,0.7,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.840901771
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,9,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.766571429,0.312314979,0.5275,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,TRUE,0.839814979
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'bonus', 'expenses']",0.778636364,0.400457666,0.4375,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.837957666
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,4,"['poi', 'bonus', 'director_fees', 'total_payments']",0.606846154,0.220082778,0.6115,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.831582778
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,6,"['poi', 'from_poi_to_this_person', 'to_messages', 'bonus', 'director_fees', 'expenses']",0.820076923,0.414264036,0.4095,{u'min_samples_split': 4},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=4, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.823764036
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'from_poi_to_this_person', 'to_messages']",0.624555556,0.175620398,0.644,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.819620398
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,4,"['poi', 'bonus', 'director_fees', 'total_payments']",0.407230769,0.158159597,0.66,"{u'n_estimators': 70, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=70, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.818159597
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,5,"['poi', 'shared_receipt_with_poi', 'bonus', 'director_fees', 'expenses']",0.822076923,0.41662227,0.391,{u'min_samples_split': 3},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=3, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.80762227
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'bonus', 'expenses']",0.518181818,0.209813577,0.5965,"{u'n_estimators': 50, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=50, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.806313577
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'director_fees', 'expenses']",0.535272727,0.215539305,0.5895,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.805039305
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,5,"['poi', 'bonus', 'salary', 'director_fees', 'expenses']",0.830583333,0.486935867,0.3075,"{u'n_neighbors': 3, u'weights': u'uniform', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=3, p=3,
+           weights='uniform')",TRUE,FALSE,FALSE,FALSE,TRUE,0.794435867
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,7,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'expenses', 'total_payments']",0.6105,0.201967892,0.585,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.786967892
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,5,"['poi', 'from_poi_to_this_person', 'bonus', 'director_fees', 'expenses']",0.813153846,0.390168971,0.381,{u'min_samples_split': 3},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=3, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.771168971
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,5,"['poi', 'from_poi_to_this_person', 'bonus', 'director_fees', 'expenses']",0.709,0.264837774,0.502,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.766837774
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,2,"['poi', 'bonus']",0.788666667,0.57980456,0.178,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.75780456
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,2,"['poi', 'bonus']",0.788666667,0.57980456,0.178,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.75780456
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,5,"['poi', 'from_poi_to_this_person', 'to_messages', 'bonus', 'director_fees']",0.793583333,0.379848866,0.377,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,TRUE,0.756848866
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'shared_receipt_with_poi', 'to_messages']",0.739,0.221165771,0.535,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.756165771
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'bonus', 'director_fees']",0.782,0.437586685,0.3155,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,TRUE,0.753086685
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'bonus', 'expenses']",0.824818182,0.549659864,0.202,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.751659864
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'bonus', 'expenses']",0.824818182,0.549659864,0.202,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.751659864
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,10,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.7015,0.24139568,0.5085,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.74989568
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'bonus', 'director_fees']",0.7813,0.434569629,0.3105,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,TRUE,0.745069629
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,9,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.7075,0.243824896,0.4985,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.742324896
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'bonus', 'expenses']",0.790454545,0.406727829,0.3325,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,TRUE,0.739227829
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,5,"['poi', 'bonus', 'salary', 'director_fees', 'expenses']",0.796916667,0.382590005,0.356,{u'min_samples_split': 3},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=3, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.738590005
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,4,"['poi', 'bonus', 'director_fees', 'expenses']",0.81125,0.414681262,0.322,"{u'n_estimators': 7, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=7, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,TRUE,0.736681262
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,4,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'to_messages']",0.641222222,0.167611095,0.562,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.729611095
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,8,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'bonus', 'director_fees', 'expenses']",0.850384615,0.539229672,0.189,"{u'n_neighbors': 7, u'weights': u'uniform', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=7, p=3,
+           weights='uniform')",TRUE,FALSE,FALSE,FALSE,FALSE,0.728229672
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi']",0.702875,0.213721414,0.514,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.727721414
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,4,"['poi', 'bonus', 'salary', 'expenses']",0.768727273,0.363727455,0.363,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.726727455
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,4,"['poi', 'bonus', 'expenses', 'total_payments']",0.667307692,0.22971402,0.494,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.72371402
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,2,"['poi', 'bonus']",0.750777778,0.417064846,0.3055,"{u'n_estimators': 15, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=15, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,TRUE,0.722564846
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,9,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'salary', 'director_fees', 'expenses', 'total_payments']",0.628571429,0.197999245,0.5245,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.722499245
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,4,"['poi', 'bonus', 'expenses', 'total_payments']",0.804307692,0.362764884,0.3595,{u'min_samples_split': 5},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=5, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.722264884
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,8,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'bonus', 'director_fees', 'expenses']",0.806230769,0.366168128,0.355,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.721168128
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,7,"['poi', 'from_poi_to_this_person', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.836,0.405128205,0.316,"{u'n_estimators': 70, u'learning_rate': 1.5, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.5, n_estimators=70, random_state=None)",TRUE,FALSE,FALSE,FALSE,TRUE,0.721128205
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,2,"['poi', 'bonus']",0.761666667,0.442231076,0.2775,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.719731076
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,2,"['poi', 'bonus']",0.761666667,0.442231076,0.2775,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.719731076
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,5,"['poi', 'bonus', 'salary', 'director_fees', 'expenses']",0.787,0.360441767,0.359,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.719441767
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,5,"['poi', 'from_this_person_to_poi', 'bonus', 'director_fees', 'expenses']",0.806615385,0.366424116,0.3525,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.718924116
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,2,"['poi', 'bonus']",0.751444444,0.416842105,0.297,"{u'n_estimators': 10, u'criterion': u'entropy'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.713842105
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'bonus', 'director_fees']",0.7898,0.454867257,0.257,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.711867257
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'bonus', 'director_fees']",0.7898,0.454867257,0.257,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.711867257
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,4,"['poi', 'bonus', 'salary', 'expenses']",0.554272727,0.205039626,0.5045,"{u'n_estimators': 50, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=50, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.709539626
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,4,"['poi', 'bonus', 'director_fees', 'expenses']",0.797833333,0.378006873,0.33,"{u'n_neighbors': 3, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=3, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,TRUE,0.708006873
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,4,"['poi', 'director_fees', 'expenses', 'total_payments']",0.626615385,0.205408753,0.4975,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.702908753
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'bonus', 'total_payments']",0.829384615,0.418535127,0.28,"{u'n_estimators': 7, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=7, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.698535127
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,5,"['poi', 'from_poi_to_this_person', 'to_messages', 'bonus', 'director_fees']",0.788833333,0.358430541,0.338,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.696430541
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,7,"['poi', 'from_poi_to_this_person', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.819428571,0.358672377,0.335,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,TRUE,0.693672377
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,2,"['poi', 'bonus']",0.758222222,0.428687196,0.2645,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.693187196
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,2,"['poi', 'bonus']",0.758222222,0.428687196,0.2645,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.693187196
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,4,"['poi', 'bonus', 'expenses', 'total_payments']",0.815076923,0.378313253,0.314,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,TRUE,0.692313253
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,5,"['poi', 'bonus', 'director_fees', 'expenses', 'total_payments']",0.813538462,0.372901679,0.311,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,TRUE,0.683901679
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,6,"['poi', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.681230769,0.228882145,0.4525,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.681382145
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'bonus', 'total_payments']",0.807692308,0.357630979,0.314,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,TRUE,0.671630979
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'bonus', 'total_payments']",0.807692308,0.357630979,0.314,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,TRUE,0.671630979
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,7,"['poi', 'from_poi_to_this_person', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.795642857,0.311762134,0.3565,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.668262134
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,5,"['poi', 'bonus', 'director_fees', 'expenses', 'total_payments']",0.800538462,0.343038645,0.324,{u'min_samples_split': 4},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=4, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.667038645
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'bonus', 'expenses']",0.804727273,0.431985294,0.235,"{u'n_estimators': 4, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=4, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.666985294
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,2,"['poi', 'bonus']",0.766222222,0.447046843,0.2195,"{u'n_estimators': 3, u'learning_rate': 1.75, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1.75,
+          n_estimators=3, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.666546843
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,8,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.814857143,0.342385517,0.3215,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,TRUE,0.663885517
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,6,"['poi', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.672846154,0.219706395,0.4415,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.661206395
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,4,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages']",0.821777778,0.278916545,0.381,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.659916545
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,5,"['poi', 'from_poi_to_this_person', 'bonus', 'director_fees', 'expenses']",0.833384615,0.424682396,0.234,"{u'n_estimators': 15, u'criterion': u'entropy'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=15, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.658682396
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,5,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages']",0.820222222,0.276086957,0.381,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.657086957
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,7,"['poi', 'from_poi_to_this_person', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.6925,0.214798317,0.434,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.648798317
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,4,"['poi', 'bonus', 'director_fees', 'total_payments']",0.800076923,0.337493218,0.311,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,TRUE,0.648493218
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,6,"['poi', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.8,0.337310195,0.311,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,TRUE,0.648310195
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,4,"['poi', 'bonus', 'expenses', 'total_payments']",0.817307692,0.372013652,0.2725,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.644513652
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,10,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.812357143,0.332083557,0.31,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,TRUE,0.642083557
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,9,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.812357143,0.332083557,0.31,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,TRUE,0.642083557
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'bonus', 'total_payments']",0.480384615,0.146468401,0.4925,"{u'n_estimators': 30, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=30, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.638968401
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'bonus', 'total_payments']",0.480384615,0.146468401,0.4925,"{u'n_estimators': 30, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=30, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.638968401
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'bonus', 'total_payments']",0.788153846,0.314650934,0.32,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.634650934
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,7,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'expenses', 'total_payments']",0.804785714,0.315921647,0.3145,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.630421647
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,5,"['poi', 'bonus', 'salary', 'director_fees', 'expenses']",0.797416667,0.358130349,0.272,"{u'n_estimators': 10, u'learning_rate': 1.75, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.75, n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.630130349
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'from_this_person_to_poi', 'to_messages']",0.705444444,0.176908023,0.452,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.628908023
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'bonus', 'total_payments']",0.786307692,0.310058594,0.3175,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.627558594
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,5,"['poi', 'bonus', 'director_fees', 'expenses', 'total_payments']",0.824076923,0.38547486,0.2415,"{u'n_estimators': 5, u'criterion': u'entropy'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=5, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.62697486
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'shared_receipt_with_poi', 'to_messages']",0.799888889,0.243761996,0.381,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.624761996
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'salary', 'expenses']",0.818909091,0.508888889,0.1145,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.623388889
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,4,"['poi', 'bonus', 'director_fees', 'total_payments']",0.811076923,0.351755527,0.2705,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.622255527
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,8,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.687357143,0.205598216,0.415,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.620598216
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'bonus', 'total_payments']",0.813307692,0.355450237,0.2625,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.617950237
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,9,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.798214286,0.302158273,0.315,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,TRUE,0.617158273
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'bonus', 'salary']",0.302,0.13871155,0.478,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.61671155
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,6,"['poi', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.794,0.318522484,0.2975,{u'min_samples_split': 3},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=3, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.616022484
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,8,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.792,0.291780822,0.3195,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.611280822
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,5,"['poi', 'to_messages', 'bonus', 'director_fees', 'expenses']",0.820923077,0.372274143,0.239,"{u'n_estimators': 5, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=5, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.611274143
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,10,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.807642857,0.314606742,0.294,{u'min_samples_split': 5},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=5, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.608606742
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,8,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'director_fees', 'expenses', 'total_payments']",0.800857143,0.301810865,0.3,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.601810865
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'salary', 'director_fees']",0.663636364,0.231691919,0.367,"{u'n_estimators': 30, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=30, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.598691919
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,10,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.822714286,0.33954727,0.255,"{u'n_estimators': 10, u'learning_rate': 1.5, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.5, n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.59454727
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,5,"['poi', 'from_this_person_to_poi', 'bonus', 'director_fees', 'expenses']",0.808153846,0.3375,0.2565,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.594
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,4,"['poi', 'bonus', 'salary', 'expenses']",0.803818182,0.40771028,0.1745,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.58221028
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,5,"['poi', 'from_poi_to_this_person', 'to_messages', 'bonus', 'director_fees']",0.318083333,0.115341545,0.4635,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.578841545
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,2,"['poi', 'salary']",0.7966,0.463983051,0.1095,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.573483051
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,5,"['poi', 'bonus', 'salary', 'director_fees', 'expenses']",0.8025,0.352472089,0.221,"{u'n_estimators': 7, u'criterion': u'entropy'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=7, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.573472089
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'salary', 'expenses']",0.736181818,0.281703775,0.291,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.572703775
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,4,"['poi', 'bonus', 'salary', 'expenses']",0.805363636,0.410191083,0.161,"{u'n_estimators': 10, u'criterion': u'entropy'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.571191083
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,9,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'salary', 'director_fees', 'expenses', 'total_payments']",0.788428571,0.275233645,0.2945,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.569733645
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi']",0.827888889,0.263565891,0.306,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.569565891
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi']",0.678625,0.168705188,0.4,"{u'n_estimators': 10, u'learning_rate': 1.75, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1.75,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.568705188
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,4,"['poi', 'bonus', 'salary', 'total_payments']",0.789076923,0.295929593,0.269,{u'min_samples_split': 3},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=3, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.564929593
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,9,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'salary', 'director_fees', 'expenses', 'total_payments']",0.792785714,0.279274865,0.285,"{u'n_estimators': 5, u'learning_rate': 1, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1,
+          n_estimators=5, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.564274865
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'bonus', 'expenses']",0.717636364,0.259565217,0.2985,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.558065217
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'bonus', 'expenses']",0.717636364,0.259565217,0.2985,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.558065217
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,5,"['poi', 'shared_receipt_with_poi', 'bonus', 'director_fees', 'expenses']",0.753153846,0.249896566,0.302,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.551896566
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,5,"['poi', 'to_messages', 'bonus', 'director_fees', 'expenses']",0.753076923,0.249793218,0.302,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.551793218
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,6,"['poi', 'from_poi_to_this_person', 'to_messages', 'bonus', 'director_fees', 'expenses']",0.817461538,0.344712739,0.207,"{u'n_estimators': 5, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=5, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.551712739
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,5,"['poi', 'shared_receipt_with_poi', 'bonus', 'director_fees', 'expenses']",0.804615385,0.316824966,0.2335,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.550324966
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,5,"['poi', 'bonus', 'salary', 'director_fees', 'expenses']",0.78175,0.305956113,0.244,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.549956113
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'bonus', 'salary']",0.7776,0.376923077,0.1715,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.548423077
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'bonus', 'salary']",0.7776,0.376923077,0.1715,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.548423077
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'bonus', 'salary']",0.7776,0.376923077,0.1715,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.548423077
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,4,"['poi', 'bonus', 'director_fees', 'total_payments']",0.800769231,0.307942708,0.2365,{u'min_samples_split': 7},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=7, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.544442708
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,4,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages']",0.840666667,0.27628866,0.268,"{u'n_estimators': 70, u'learning_rate': 1, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1,
+          n_estimators=70, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.54428866
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'from_poi_to_this_person', 'shared_receipt_with_poi']",0.811444444,0.234172387,0.307,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.541172387
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,4,"['poi', 'bonus', 'salary', 'director_fees']",0.766272727,0.306702776,0.2265,"{u'n_estimators': 30, u'learning_rate': 1.75, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1.75,
+          n_estimators=30, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.533202776
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,4,"['poi', 'bonus', 'salary', 'director_fees']",0.761636364,0.297789337,0.229,"{u'n_estimators': 3, u'criterion': u'entropy'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.526789337
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,5,"['poi', 'from_this_person_to_poi', 'bonus', 'director_fees', 'expenses']",0.747461538,0.236550308,0.288,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.524550308
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,5,"['poi', 'from_poi_to_this_person', 'to_messages', 'bonus', 'director_fees']",0.801,0.329525483,0.1875,"{u'n_estimators': 5, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=5, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.517025483
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'bonus', 'salary']",0.7416,0.299174691,0.2175,"{u'n_estimators': 7, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=7, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.516674691
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,4,"['poi', 'bonus', 'salary', 'director_fees']",0.757545455,0.288522511,0.2275,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.516022511
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,6,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'total_payments']",0.439071429,0.107444668,0.4005,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.507944668
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,4,"['poi', 'director_fees', 'expenses', 'total_payments']",0.770384615,0.253132832,0.2525,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.505632832
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,2,"['poi', 'from_this_person_to_poi']",0.568714286,0.134371604,0.371,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.505371604
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,4,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages']",0.772,0.187648456,0.316,"{u'n_estimators': 30, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=30, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.503648456
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'bonus', 'salary']",0.5532,0.173025967,0.3265,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.499525967
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,2,"['poi', 'salary']",0.7017,0.251139241,0.248,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.499139241
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,2,"['poi', 'salary']",0.7017,0.251139241,0.248,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.499139241
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'expenses', 'total_payments']",0.764846154,0.244562591,0.253,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.497562591
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'shared_receipt_with_poi', 'to_messages']",0.789888889,0.199595415,0.296,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.495595415
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,6,"['poi', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.801769231,0.291696751,0.202,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.493696751
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'salary', 'expenses']",0.718181818,0.239829707,0.2535,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.493329707
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,4,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages']",0.785666667,0.195009849,0.297,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.492009849
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,8,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'bonus', 'director_fees', 'expenses']",0.803615385,0.294117647,0.1975,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.491617647
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,5,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages']",0.774888889,0.185276074,0.302,"{u'n_estimators': 30, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=30, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.487276074
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,7,"['poi', 'from_poi_to_this_person', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.811285714,0.280437756,0.205,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.485437756
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,4,"['poi', 'from_poi_to_this_person', 'shared_receipt_with_poi', 'to_messages']",0.741444444,0.163368848,0.322,"{u'n_estimators': 30, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=30, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.485368848
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'bonus', 'salary']",0.7216,0.264705882,0.2205,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.485205882
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'salary', 'director_fees']",0.732909091,0.248929336,0.2325,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.481429336
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'salary', 'director_fees']",0.732909091,0.248929336,0.2325,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.481429336
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,4,"['poi', 'from_poi_to_this_person', 'shared_receipt_with_poi', 'to_messages']",0.781888889,0.188349515,0.291,{u'min_samples_split': 4},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=4, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.479349515
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,4,"['poi', 'bonus', 'salary', 'director_fees']",0.713454545,0.231343284,0.248,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.479343284
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,4,"['poi', 'bonus', 'salary', 'director_fees']",0.713454545,0.231343284,0.248,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.479343284
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,4,"['poi', 'bonus', 'expenses', 'total_payments']",0.828153846,0.345238095,0.1305,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.475738095
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'from_poi_to_this_person', 'shared_receipt_with_poi']",0.789888889,0.19339298,0.281,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.47439298
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'bonus', 'total_payments']",0.828384615,0.343707713,0.127,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.470707713
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'bonus', 'total_payments']",0.828384615,0.343707713,0.127,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.470707713
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,4,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages']",0.786,0.188425303,0.28,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.468425303
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,4,"['poi', 'bonus', 'salary', 'total_payments']",0.826769231,0.337209302,0.1305,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.467709302
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'bonus', 'salary']",0.6722,0.217756184,0.2465,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.464256184
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'bonus', 'salary']",0.6722,0.217756184,0.2465,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.464256184
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,5,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages']",0.777555556,0.180076628,0.282,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.462076628
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi']",0.78125,0.203791469,0.258,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.461791469
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi']",0.78125,0.203791469,0.258,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.461791469
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,8,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'director_fees', 'expenses', 'total_payments']",0.814214286,0.276247208,0.1855,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.461747208
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'bonus', 'salary']",0.751,0.290598291,0.17,"{u'n_estimators': 10, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.460598291
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,4,"['poi', 'bonus', 'salary', 'total_payments']",0.831153846,0.346456693,0.11,"{u'n_estimators': 3, u'learning_rate': 1.5, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1.5,
+          n_estimators=3, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.456456693
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,9,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.8335,0.312145289,0.1375,"{u'n_estimators': 7, u'criterion': u'gini'}","['poi', 'bonus', 'salary']",TRUE,FALSE,FALSE,FALSE,FALSE,0.449645289
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,8,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.809785714,0.262365591,0.183,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.445365591
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'expenses', 'total_payments']",0.761923077,0.223624432,0.2215,{u'min_samples_split': 4},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=4, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.445124432
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'salary', 'director_fees']",0.738272727,0.239169139,0.2015,"{u'n_estimators': 5, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=5, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.440669139
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'bonus', 'salary']",0.6964,0.225344645,0.2125,"{u'n_estimators': 70, u'learning_rate': 1.5, u'algorithm': u'SAMME.R'}","AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.5, n_estimators=70, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.437844645
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,2,"['poi', 'salary']",0.7057,0.2307253,0.202,"{u'n_estimators': 5, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=5, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.4327253
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,6,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'total_payments']",0.771285714,0.208535403,0.215,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.423535403
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,4,"['poi', 'bonus', 'salary', 'expenses']",0.676636364,0.187975952,0.2345,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.422475952
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,5,"['poi', 'bonus', 'salary', 'director_fees', 'expenses']",0.709166667,0.190099834,0.2285,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.418599834
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,7,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'expenses', 'total_payments']",0.809214286,0.247933884,0.165,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.412933884
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,4,"['poi', 'bonus', 'salary', 'total_payments']",0.822538462,0.293959732,0.1095,"{u'n_estimators': 4, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=4, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.403459732
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'shared_receipt_with_poi', 'to_messages']",0.814222222,0.1900369,0.206,"{u'n_estimators': 5, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=5, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.3960369
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,9,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'salary', 'director_fees', 'expenses', 'total_payments']",0.808714286,0.235569423,0.151,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.386569423
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'bonus', 'salary']",0.6912,0.195408735,0.1745,{u'min_samples_split': 4},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=4, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.369908735
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,4,"['poi', 'bonus', 'salary', 'director_fees']",0.700181818,0.182485323,0.1865,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.368985323
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,10,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'bonus', 'salary', 'director_fees', 'expenses', 'total_payments']",0.820571429,0.244510978,0.1225,"{u'n_estimators': 7, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=7, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.367010978
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,4,"['poi', 'bonus', 'salary', 'director_fees']",0.733727273,0.205079365,0.1615,{u'min_samples_split': 3},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=3, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.366579365
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi']",0.806888889,0.171708185,0.193,"{u'n_estimators': 30, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=30, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.364708185
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi']",0.809777778,0.173992674,0.19,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.363992674
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,4,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi']",0.779666667,0.149179158,0.209,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.358179158
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'bonus', 'salary']",0.6915,0.190530519,0.167,{u'min_samples_split': 3},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=3, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.357530519
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'bonus', 'salary']",0.655,0.169553327,0.186,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.355553327
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,4,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi']",0.809777778,0.169758813,0.183,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.352758813
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,4,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi']",0.810444444,0.170093458,0.182,"{u'n_estimators': 30, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=30, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.352093458
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,5,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages']",0.811777778,0.168260038,0.176,"{u'n_estimators': 5, u'criterion': u'entropy'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=5, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.344260038
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'salary', 'expenses']",0.746363636,0.205223881,0.1375,"{u'n_estimators': 5, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=5, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.342723881
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'from_poi_to_this_person', 'shared_receipt_with_poi']",0.783444444,0.146159582,0.196,"{u'n_estimators': 30, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=30, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.342159582
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi']",0.772375,0.151823579,0.179,"{u'n_estimators': 5, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=5, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.330823579
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,4,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages']",0.826333333,0.176064442,0.153,"{u'n_estimators': 7, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=7, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.329064442
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,2,"['poi', 'expenses']",0.6707,0.166236448,0.161,"{u'n_estimators': 3, u'criterion': u'entropy'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.327236448
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'salary', 'total_payments']",0.764692308,0.177723676,0.146,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.323723676
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'expenses', 'total_payments']",0.777615385,0.188679245,0.135,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.323679245
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'director_fees', 'expenses']",0.698636364,0.162647512,0.1585,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.321147512
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'salary', 'total_payments']",0.828692308,0.259023355,0.061,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.320023355
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi']",0.787888889,0.140711462,0.178,{u'min_samples_split': 3},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=3, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.318711462
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,4,"['poi', 'director_fees', 'expenses', 'total_payments']",0.775307692,0.179986101,0.1295,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.309486101
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,4,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'to_messages']",0.757111111,0.118894602,0.185,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.303894602
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,4,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'to_messages']",0.754,0.11630847,0.184,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.30030847
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,4,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages']",0.848444444,0.184027778,0.106,"{u'n_estimators': 4, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=4, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.290027778
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'expenses', 'total_payments']",0.777,0.171658145,0.1175,"{u'n_estimators': 3, u'criterion': u'entropy'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.289158145
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'from_this_person_to_poi', 'to_messages']",0.810666667,0.143724696,0.142,"{u'n_estimators': 7, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=7, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.285724696
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'director_fees', 'expenses']",0.725909091,0.160988644,0.1205,"{u'n_estimators': 4, u'criterion': u'entropy'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=4, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.281488644
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,2,"['poi', 'expenses']",0.6445,0.133081642,0.141,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.274081642
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,2,"['poi', 'expenses']",0.6445,0.133081642,0.141,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.274081642
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi']",0.7475,0.117117117,0.156,{u'min_samples_split': 4},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=4, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.273117117
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'director_fees', 'expenses']",0.680818182,0.133785749,0.138,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.271785749
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'director_fees', 'expenses']",0.680818182,0.133785749,0.138,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.271785749
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi']",0.753375,0.117831893,0.15,{u'min_samples_split': 5},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=5, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.267831893
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,4,"['poi', 'from_poi_to_this_person', 'shared_receipt_with_poi', 'to_messages']",0.837444444,0.159057437,0.108,"{u'n_neighbors': 7, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=7, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.267057437
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'director_fees', 'expenses']",0.673090909,0.12849162,0.138,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.26649162
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'director_fees', 'expenses']",0.673090909,0.12849162,0.138,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.26649162
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,4,"['poi', 'from_poi_to_this_person', 'shared_receipt_with_poi', 'to_messages']",0.798444444,0.126605505,0.138,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.264605505
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,4,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'to_messages']",0.738333333,0.098399526,0.166,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.264399526
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,4,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'to_messages']",0.738333333,0.098399526,0.166,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.264399526
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'from_poi_to_this_person', 'to_messages']",0.737111111,0.097762073,0.166,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.263762073
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi']",0.793625,0.13549832,0.121,"{u'n_estimators': 10, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.25649832
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,2,"['poi', 'to_messages']",0.796777778,0.120073327,0.131,"{u'n_estimators': 4, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=4, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.251073327
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,6,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'total_payments']",0.800285714,0.157487091,0.0915,"{u'n_estimators': 7, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=7, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.248987091
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'salary', 'total_payments']",0.780307692,0.149180328,0.091,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.240180328
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,4,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'to_messages']",0.782555556,0.108108108,0.132,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.240108108
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,2,"['poi', 'from_poi_to_this_person']",0.645375,0.149203688,0.089,"{u'n_estimators': 5, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=5, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.238203688
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'from_this_person_to_poi', 'to_messages']",0.739666667,0.086769231,0.141,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.227769231
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,2,"['poi', 'to_messages']",0.737111111,0.085558252,0.141,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.226558252
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,2,"['poi', 'to_messages']",0.737111111,0.085558252,0.141,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.226558252
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,2,"['poi', 'from_poi_to_this_person']",0.64,0.128378378,0.076,{u'min_samples_split': 4},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=4, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.204378378
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,2,"['poi', 'from_poi_to_this_person']",0.641875,0.124891587,0.072,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.196891587
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'from_poi_to_this_person', 'shared_receipt_with_poi']",0.831111111,0.113095238,0.076,"{u'n_estimators': 4, u'criterion': u'entropy'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=4, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.189095238
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,4,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'to_messages']",0.835222222,0.111111111,0.069,"{u'n_estimators': 4, u'criterion': u'entropy'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=4, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.180111111
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,6,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'total_payments']",0.824571429,0.134615385,0.042,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.176615385
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'from_this_person_to_poi', 'to_messages']",0.761777778,0.073770492,0.099,{u'min_samples_split': 4},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=4, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.172770492
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,2,"['poi', 'total_payments']",0.758384615,0.097956307,0.0695,"{u'n_estimators': 7, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=7, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.167456307
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,3,"['poi', 'director_fees', 'expenses']",0.588,0.067327409,0.0985,"{u'n_estimators': 50, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=50, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.165827409
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'director_fees', 'total_payments']",0.753461538,0.093728928,0.0695,"{u'n_estimators': 7, u'criterion': u'entropy'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=7, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.163228928
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,8,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'director_fees', 'expenses', 'total_payments']",0.770285714,0.092493298,0.069,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.161493298
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,6,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'total_payments']",0.773071429,0.092733564,0.067,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.159733564
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'director_fees', 'total_payments']",0.751384615,0.08988016,0.0675,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.15738016
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'director_fees', 'total_payments']",0.750923077,0.089522546,0.0675,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.157022546
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'director_fees', 'total_payments']",0.747076923,0.086649551,0.0675,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.154149551
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'director_fees', 'total_payments']",0.747076923,0.086649551,0.0675,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.154149551
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,9,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'salary', 'director_fees', 'expenses', 'total_payments']",0.755357143,0.082601054,0.0705,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.153101054
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,2,"['poi', 'total_payments']",0.752153846,0.08604336,0.0635,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.14954336
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,2,"['poi', 'total_payments']",0.752153846,0.08604336,0.0635,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.14954336
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'director_fees', 'total_payments']",0.749615385,0.079705291,0.0595,"{u'n_estimators': 20, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=20, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.139205291
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,7,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'expenses', 'total_payments']",0.771142857,0.080779944,0.058,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.138779944
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,4,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'to_messages']",0.829444444,0.082683307,0.053,"{u'n_estimators': 30, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=30, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.135683307
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,7,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages', 'expenses', 'total_payments']",0.820785714,0.096671949,0.0305,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.127171949
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,4,"['poi', 'director_fees', 'expenses', 'total_payments']",0.802076923,0.088952654,0.031,"{u'n_neighbors': 3, u'weights': u'uniform', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=3, p=3,
+           weights='uniform')",TRUE,FALSE,FALSE,FALSE,FALSE,0.119952654
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,3,"['poi', 'from_poi_to_this_person', 'to_messages']",0.775888889,0.055895197,0.064,"{u'n_estimators': 5, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=5, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.119895197
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,2,"['poi', 'from_this_person_to_poi']",0.702,0.050496689,0.061,"{u'n_estimators': 7, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=7, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.111496689
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'expenses', 'total_payments']",0.801461538,0.07959479,0.0275,"{u'n_neighbors': 3, u'weights': u'uniform', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=3, p=3,
+           weights='uniform')",TRUE,FALSE,FALSE,FALSE,FALSE,0.10709479
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,3,"['poi', 'from_poi_to_this_person', 'to_messages']",0.734333333,0.036024016,0.054,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.090024016
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'expenses', 'total_payments']",0.822692308,0.060518732,0.0105,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.071018732
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'expenses', 'total_payments']",0.822692308,0.060518732,0.0105,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.071018732
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,2,"['poi', 'total_payments']",0.822615385,0.057803468,0.01,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.067803468
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,4,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages']",0.872555556,0.049079755,0.008,"{u'n_neighbors': 2, u'weights': u'uniform', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='uniform')",TRUE,FALSE,FALSE,FALSE,FALSE,0.057079755
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,4,"['poi', 'bonus', 'salary', 'total_payments']",0.831153846,0.050691244,0.0055,"{u'n_neighbors': 2, u'weights': u'uniform', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='uniform')",TRUE,FALSE,FALSE,FALSE,FALSE,0.056191244
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,2,"['poi', 'from_this_person_to_poi']",0.834,0.034482759,0.006,"{u'n_neighbors': 2, u'weights': u'uniform', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='uniform')",TRUE,FALSE,FALSE,FALSE,FALSE,0.040482759
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,2,"['poi', 'from_this_person_to_poi']",0.744428571,0.021818182,0.018,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.039818182
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'salary', 'total_payments']",0.717923077,0.016250725,0.014,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,FALSE,0.030250725
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,2,"['poi', 'from_poi_to_this_person']",0.7365,0.026315789,0.0015,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.027815789
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,4,"['poi', 'from_poi_to_this_person', 'shared_receipt_with_poi', 'to_messages']",0.841222222,0.017977528,0.008,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.025977528
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'from_poi_to_this_person', 'to_messages']",0.868666667,0.021052632,0.004,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.025052632
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,3,"['poi', 'expenses', 'total_payments']",0.832461538,0.016304348,0.0015,"{u'n_neighbors': 2, u'weights': u'uniform', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='uniform')",TRUE,FALSE,FALSE,FALSE,FALSE,0.017804348
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,4,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi']",0.814888889,0.008849558,0.006,"{u'n_neighbors': 5, u'weights': u'uniform', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=3,
+           weights='uniform')",TRUE,FALSE,FALSE,FALSE,FALSE,0.014849558
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'from_poi_to_this_person', 'shared_receipt_with_poi']",0.823777778,0.003389831,0.002,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.005389831
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,5,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages']",Error,Error,Error,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,4,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages']",Error,Error,Error,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'shared_receipt_with_poi', 'to_messages']",Error,Error,Error,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,2,"['poi', 'to_messages']",Error,Error,Error,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi']",Error,Error,Error,{},GaussianNB(),FALSE,FALSE,FALSE,FALSE,FALSE,0
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,4,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'to_messages']",Error,Error,Error,{},GaussianNB(),FALSE,FALSE,FALSE,FALSE,FALSE,0
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,2,"['poi', 'from_this_person_to_poi']",Error,Error,Error,{},GaussianNB(),FALSE,FALSE,FALSE,FALSE,FALSE,0
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'from_this_person_to_poi', 'to_messages']",Error,Error,Error,{},GaussianNB(),FALSE,FALSE,FALSE,FALSE,FALSE,0
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi']",Error,Error,Error,{},GaussianNB(),FALSE,FALSE,FALSE,FALSE,FALSE,0
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,4,"['poi', 'from_this_person_to_poi', 'shared_receipt_with_poi', 'to_messages']",Error,Error,Error,{},GaussianNB(),FALSE,FALSE,FALSE,FALSE,FALSE,0
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,4,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'to_messages']",Error,Error,Error,{},GaussianNB(),FALSE,FALSE,FALSE,FALSE,FALSE,0
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,4,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi', 'shared_receipt_with_poi']",Error,Error,Error,{},GaussianNB(),FALSE,FALSE,FALSE,FALSE,FALSE,0
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,2,"['poi', 'director_fees']",Error,Error,Error,{},GaussianNB(),FALSE,FALSE,FALSE,FALSE,FALSE,0
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,2,"['poi', 'director_fees']",Error,Error,Error,"{u'n_neighbors': 2, u'weights': u'uniform', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='uniform')",FALSE,FALSE,FALSE,FALSE,FALSE,0
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,2,"['poi', 'director_fees']",Error,Error,Error,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",FALSE,FALSE,FALSE,FALSE,FALSE,0
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,2,"['poi', 'director_fees']",Error,Error,Error,"{u'n_estimators': 3, u'learning_rate': 1, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=1,
+          n_estimators=3, random_state=None)",FALSE,FALSE,FALSE,FALSE,FALSE,0
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,2,"['poi', 'director_fees']",Error,Error,Error,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",FALSE,FALSE,FALSE,FALSE,FALSE,0
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,2,"['poi', 'expenses']",Error,Error,Error,{},GaussianNB(),FALSE,FALSE,FALSE,FALSE,FALSE,0
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,3,"['poi', 'from_poi_to_this_person', 'from_this_person_to_poi']",Error,Error,Error,{},GaussianNB(),FALSE,FALSE,FALSE,FALSE,FALSE,0
+1001,4,<class 'sklearn.neighbors.classification.KNeighborsClassifier'>,scaled,6,"['poi', 'from_this_person_to_poi', 'to_messages', 'bonus', 'director_fees', 'total_payments']",0.814142857,0.336590662,0.31,"{u'n_neighbors': 2, u'weights': u'distance', u'leaf_size': 5, u'algorithm': u'auto', u'p': 3}","KNeighborsClassifier(algorithm='auto', leaf_size=5, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=2, p=3,
+           weights='distance')",TRUE,FALSE,FALSE,FALSE,TRUE,0.646590662
+1002,5,<class 'sklearn.tree.tree.DecisionTreeClassifier'>,not scaled,6,"['poi', 'from_this_person_to_poi', 'to_messages', 'bonus', 'director_fees', 'total_payments']",0.7845,0.265560166,0.288,{u'min_samples_split': 2},"DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')",TRUE,FALSE,FALSE,FALSE,FALSE,0.553560166
+1004,7,<class 'sklearn.ensemble.forest.RandomForestClassifier'>,not scaled,6,"['poi', 'from_this_person_to_poi', 'to_messages', 'bonus', 'director_fees', 'total_payments']",0.812071429,0.259710586,0.1705,"{u'n_estimators': 3, u'criterion': u'gini'}","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=3, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)",TRUE,FALSE,FALSE,FALSE,FALSE,0.430210586
+1000,1,<class 'sklearn.naive_bayes.GaussianNB'>,scaled,6,"['poi', 'from_this_person_to_poi', 'to_messages', 'bonus', 'director_fees', 'total_payments']",0.6715,0.215956284,0.494,{},GaussianNB(),TRUE,FALSE,FALSE,FALSE,FALSE,0.709956284
+1003,6,<class 'sklearn.ensemble.weight_boosting.AdaBoostClassifier'>,scaled,6,"['poi', 'from_this_person_to_poi', 'to_messages', 'bonus', 'director_fees', 'total_payments']",0.379785714,0.157106208,0.7655,"{u'n_estimators': 10, u'learning_rate': 2, u'algorithm': u'SAMME'}","AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=2,
+          n_estimators=10, random_state=None)",TRUE,FALSE,FALSE,FALSE,FALSE,0.922606208
